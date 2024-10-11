@@ -51,10 +51,10 @@ const Store = () => {
           }
     }
     
-    const [products, setProducts] = useState([{ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-E28nCPxen0RPqWnG6CsGrNJPd8a_ujFPp4tEPj0ezVrlo62C4QTHTDpjcDYlXHD-Sqo&usqp=CAU',name: "phone", brand: "nike", price: 100 },
-        {name:'phone',img:'https://tse1.mm.bing.net/th?id=OIP.CSiyrG_m_HdIeufG18MgLgHaFe&pid=Api&P=0&h=180', name: "phone", brand: "nike", price: 100 },
-        { img:'https://tse4.mm.bing.net/th?id=OIP.evJadDOV8fCafwFpfXlCFwHaHb&pid=Api&P=0&h=180',name: "phone", brand: "nike", price: 100 },
-    { img : 'https://tse4.mm.bing.net/th?id=OIP.15-er3HUlZyWLNeBJWRRTgHaHa&pid=Api&P=0&h=180',name: "phone", brand: "nike", price: 100 },
+    const [products, setProducts] = useState([{ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-E28nCPxen0RPqWnG6CsGrNJPd8a_ujFPp4tEPj0ezVrlo62C4QTHTDpjcDYlXHD-Sqo&usqp=CAU',name: "iPhone 16 Pro", brand: "iPhone", price: 100 },
+        {name:'phone',img:'https://tse1.mm.bing.net/th?id=OIP.CSiyrG_m_HdIeufG18MgLgHaFe&pid=Api&P=0&h=180', name: "Nothing 2A", brand: "Nothing", price: 50 },
+        { img:'https://tse4.mm.bing.net/th?id=OIP.evJadDOV8fCafwFpfXlCFwHaHb&pid=Api&P=0&h=180',name: "Samsung S24 ultra", brand: "Samsung", price: 80 },
+    { img : 'https://tse4.mm.bing.net/th?id=OIP.15-er3HUlZyWLNeBJWRRTgHaHa&pid=Api&P=0&h=180',name: "Pixel 8", brand: "Google Pixel", price: 70 },
     ])
     const getProducts= async() =>{
         try{

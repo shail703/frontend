@@ -33,7 +33,7 @@ const Navbar = () => {
             </button>
             
             </div>
-            <a href='/'><span class="self-center whitespace-nowrap font-semibold text-blue-500 tracking-tight py-2">💎 silk<b>ROAD.</b></span></a>
+            <a href='/'><span class="self-center whitespace-nowrap font-semibold text-blue-500 tracking-tight py-2">💎 Mobile<b>STORE.</b></span></a>
             </a>
             
             </div>
